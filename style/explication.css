@@ -1,0 +1,168 @@
+.portfolio-photos {
+    background-color: white;
+  }
+  
+  .portfolio-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+  }
+  
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 15px;
+  }
+  
+  .grid-paysages img,
+  .grid-portraits img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .lien-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-photo:hover .photo-hover {
+    display: flex;
+  }
+  footer,
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header {
+    position: relative;
+}
+header,
+footer {
+  background-color: black;
+ height: 144px;
+ align-items: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+footer {
+
+padding: 20px;
+text-align: right; /* Alignement à droite */
+}
+
+.footer-links {
+margin-right: 20px; /* Marge à droite pour séparer les liens */
+}
+
+.footer-links a {
+margin-left: 20px; /* Marge à gauche pour séparer les liens */
+text-decoration: none;
+color: #ffffff;
+}
+
+.footer-links a:hover {
+color: #11ca9c;
+}
+
+.copyright {
+color: #ffffff;
+}
+
+
+.logo {
+width: 144px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 20px; /* Espacement entre les liens */
+}
+
+nav ul li:last-child {
+margin-right: 20px; /* Supprimer l'espacement du dernier lien */
+}
+
+nav ul li a {
+text-decoration: none;
+color: #ffffff; /* Couleur des liens */
+font-weight: bold; /* Police en gras */
+font-size: 16px; /* Taille de la police */
+}
+nav ul li a.button {
+text-decoration: none;
+color: #fff; /* Couleur du texte des boutons */
+background-color: #1ca364; /* Couleur de fond des boutons */
+padding: 10px 20px; /* Espacement à l'intérieur des boutons */
+border-radius: 5px; /* Bord arrondi des boutons */
+font-weight: bold; /* Police en gras */
+font-size: 16px; /* Taille de la police */
+transition: background-color 0.3s; /* Transition en douceur lors du survol */
+}
+
+nav ul li a.button:hover {
+background-color: #0056b3; /* Couleur de fond des boutons lors du survol */
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+strong {
+  color: #00eeff;
+}
+
+ul li {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+ol li {
+  text-align: left;
+  padding-bottom: 20px;
+}
+

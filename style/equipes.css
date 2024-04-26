@@ -1,0 +1,129 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  header {
+    position: relative;
+}
+header,
+footer {
+  background-color: black;
+ height: 144px;
+ align-items: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+footer {
+
+padding: 20px;
+text-align: right; /* Alignement à droite */
+}
+
+.footer-links {
+margin-right: 20px; /* Marge à droite pour séparer les liens */
+}
+
+.footer-links a {
+margin-left: 20px; /* Marge à gauche pour séparer les liens */
+text-decoration: none;
+color: #ffffff;
+}
+
+.footer-links a:hover {
+color: #11ca9c;
+}
+
+.copyright {
+color: #ffffff;
+}
+
+
+.logo {
+width: 144px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+display: inline-block;
+margin-right: 20px; /* Espacement entre les liens */
+}
+
+nav ul li:last-child {
+margin-right: 20px; /* Supprimer l'espacement du dernier lien */
+}
+
+nav ul li a {
+text-decoration: none;
+color: #ffffff; /* Couleur des liens */
+font-weight: bold; /* Police en gras */
+font-size: 16px; /* Taille de la police */
+}
+nav ul li a.button {
+text-decoration: none;
+color: #fff; /* Couleur du texte des boutons */
+background-color: #1ca364; /* Couleur de fond des boutons */
+padding: 10px 20px; /* Espacement à l'intérieur des boutons */
+border-radius: 5px; /* Bord arrondi des boutons */
+font-weight: bold; /* Police en gras */
+font-size: 16px; /* Taille de la police */
+transition: background-color 0.3s; /* Transition en douceur lors du survol */
+}
+
+nav ul li a.button:hover {
+background-color: #0056b3; /* Couleur de fond des boutons lors du survol */
+}
+
+.photos {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.photo {
+  flex: 1;
+  margin-right: 10px; /* Espacement entre les photos */
+}
+
+.photo:last-child {
+  margin-right: 0; /* Supprimer l'espacement pour la dernière photo */
+}
+
+.photo img {
+  width: 100%; /* Pour que les images remplissent la largeur de leur conteneur */
+  height: 800px; /* Taille fixe pour uniformiser la hauteur des images */
+  object-fit: cover; /* Assure que l'image est bien remplie et respecte les proportions */
+}
+
+h2 {
+  text-align: center;
+}
+
+.photoc img {
+  align-items: center;
+}
+
+.photoc {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
